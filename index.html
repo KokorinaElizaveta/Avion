@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link href="./src/output.css" rel="stylesheet">
+  <link href="./src/input.css" rel="stylesheet">
   
 </head>
 
 <body class="bg-gray-100 text-gray-800 flex flex-col h-screen">
 
-   <header class="bg-emerald-100 flex items-center justify-between px-4 md:px-8 py-4 shadow-md">
+   <header class="bg-gray-100 flex items-center justify-between px-4 md:px-8 py-4 shadow-md">
 
     <div class="flex items-center space-x-2">
         <img src="images/search.png" alt="" class="w-4 h-4">
@@ -19,13 +20,13 @@
 
     <div class="text-gray-900">Avion</div>
 
-    <div class="flex items-center justify-between px-2 space-x-4">
+    <div class="flex justify-between space-x-4">
         <img src="images/cart.png" alt="" class="w-4 h-4"> 
         <img src="images/avathar.png" alt="" class="w-4 h-4">
     </div>
 </header>
 
-<nav class="flex items-center justify-center space-x-8 text-xs uppercase tracking-wider text-gray-600 py-2">
+<nav class="flex items-center justify-center space-x-6 text-xs uppercase tracking-wider text-gray-600 py-4">
     <a href="#" class="hover:text-rose-700 transition duration-400">Plan pots</a>
     <a href="#" class="hover:text-rose-700 transition duration-400">Ceramics</a>
     <a href="#" class="hover:text-rose-700 transition duration-400">Tables</a>
@@ -35,7 +36,100 @@
     <a href="#" class="hover:text-rose-700 transition duration-400">Cutlery</a>
 </nav>
 
+<main class="flex-grow max-w-screen-xl mx-auto px-8 py-18 md:px-3 md:py-8">
+    <section class="max-w-screen-lg w-full px-10 py-2 md:px-10 lg:px-24 lg:px-32">
+      <div class="flex flex-col-reverse md:flex-row items-stretch justify-between shadow-2xl overflow-hidden">
+        
+        
+        <div class="md:basis-8/12 p-8 md:p-12 flex flex-col justify-center items-start bg-emerald-800 text-white">
+          <h1 class="font-regular font-clashdisplay text-xl tracking-widest leading-tight">The furniture brand for the future, with timeless designs</h1>
+          <a href="#" class="mt-10 px-6 py-4 text-sm font-regular font-satoshi tracking-widest text-white  duration-400 ease-in-out bg-gray-200/20 hover:bg-rose hover:text-rose-900">
+  View collection
+</a>
+          <p class="font-satoshi font-regular mt-32 text-base md:text-sm">A new era in eco-friendly furniture with Avelon, the French luxury retail brand with nice fonts, tasteful colors and a beautiful way to display things digitally using modern web technologies.</p>
+          
+        </div>
+        
+        
+        <div class="md:basis-5/12 relative flex items-center justify-center">
+          <img src="images/first_display.jpg" alt="first_display" class="w-full h-full object-cover">
+        </div>
+    </div>
 
+    <section class="my-18">
+            
+            <h2 class="text-xl text-center mb-6">What Makes Our Brand Different</h2>
+            
+            
+            <div class="grid grid-cols-4 gap-4">
+                
+                <div class="">
+                    
+                    <img src="images/delivery-truck.png" alt="" class="w-6 h-6 text-gray-600 mb-2">
+                    <h3 class="text-sm mb-2">Next Day Delivery</h3>
+                    <p class="text-gray-700 text-xs">Order before 3 pm and get your order the next day as standard.</p>
+                </div>
+                
+                
+                <div class="">
+                    
+                    <img src="images/heart.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <h3 class="text-sm mb-2">Made By True Artisans</h3>
+                    <p class="text-gray-700 text-xs">Handmade crafted goods made with real passion and craftsmanship.</p>
+                </div>
+                
+                
+                <div class="card-container card-3">
+                    
+                    <img src="images/credit-card.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <h3 class="text-sm mb-2">Unbeatable Prices</h3>
+                    <p class="text-gray-700 text-xs">For our materials and quality you won’t find better prices anywhere.</p>
+                </div>
+                
+                
+                <div class="card-container card-4">
+                    
+                    <img src="images/leaf.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <h3 class="text-sm mb-2">Recycled Packaging</h3>
+                    <p class="text-gray-700 text-xs">We use 100% recycled packaging to ensure our footprint is manageable.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-20">
+
+          <h2 class="font-regular font-clashdisplay text-xl">New ceramics</h2>
+          <div class="grid grid-cols-4">
+            <div>
+                <img src="" alt="">
+                <h3>The Dandy chair</h3>
+                <p>£250</p>
+            </div>
+
+            <div>
+                <img src="" alt="">
+                <h3>The Dandy chair</h3>
+                <p>£250</p>
+            </div>
+
+            <div>
+                <img src="" alt="">
+                <h3>The Dandy chair</h3>
+                <p>£250</p>
+            </div>
+
+            <div>
+                <img src="" alt="">
+                <h3>The Dandy chair</h3>
+                <p>£250</p>
+            </div>
+          </div>
+
+        </section>
+
+    </section>
+
+</main>
 
 </body>
 </html>

@@ -6,10 +6,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link href="./src/output.css" rel="stylesheet">
   <link href="./src/input.css" rel="stylesheet">
+ 
   
 </head>
 
-<body class="bg-gray-50 text-gray-800 flex flex-col h-screen">
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen">
 
    <header class="bg-gray-100 flex items-center justify-between px-4 md:px-8 py-4 shadow-md">
 
@@ -42,7 +43,7 @@
         
         
         <div class="space-y-4 md:basis-8/12 p-8 md:p-12 flex flex-col justify-center items-start bg-emerald-800 text-white">
-          <h1 class="font-regular font-clashdisplay text-xl tracking-widest leading-tight">The furniture brand for the future, with timeless designs</h1>
+          <h1 class="font-regular font-clashdisplay text-2xl">The furniture brand for the <br> future, with timeless designs</h1>
           <a href="#" class="mt-10 px-6 py-4 text-sm font-regular font-satoshi tracking-widest text-white  duration-400 ease-in-out bg-gray-200/20 hover:bg-rose hover:text-rose-900">
   View collection
 </a>
@@ -55,8 +56,9 @@
           <img src="images/first_display.png" alt="first_display" class="w-full h-full object-cover">
         </div>
     </div>
+  </section>
 
-    <section class="my-18">
+    <section class="container mx-auto px-4 sm:px-6 md:px-8 xl:max-w-[1200px] py-20">
             
             <h2 class="text-xl text-center mb-6">What Makes Our Brand Different</h2>
             
@@ -64,35 +66,35 @@
             <div class="grid grid-cols-4 gap-4">
                 
                 <div>
-                    <img src="images/delivery-truck.png" alt="" class="w-6 h-6 text-gray-600 mb-2">
+                    <img src="images/delivery-truck.svg" alt="" class="w-4 h-4 text-gray-600 mb-2">
                     <h3 class="text-sm mb-2">Next Day Delivery</h3>
                     <p class="text-gray-700 text-xs">Order before 3 pm and get your order the next day as standard.</p>
                 </div>
                 
                 
                 <div>
-                    <img src="images/heart.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <img src="images/heart.svg" alt="" class="w-4 h-4 text-gray-600 mb-2">
                     <h3 class="text-sm mb-2">Made By True Artisans</h3>
                     <p class="text-gray-700 text-xs">Handmade crafted goods made with real passion and craftsmanship.</p>
                 </div>
                 
                 
                 <div>
-                    <img src="images/credit-card.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <img src="images/credit-card.svg" alt="" class="w-4 h-4 text-gray-600 mb-2">
                     <h3 class="text-sm mb-2">Unbeatable Prices</h3>
                     <p class="text-gray-700 text-xs">For our materials and quality you won’t find better prices anywhere.</p>
                 </div>
                 
                 
                 <div>
-                    <img src="images/leaf.png" alt="" class="w-4 h-4 text-gray-600 mb-2">
+                    <img src="images/leaf.svg" alt="" class="w-4 h-4 text-gray-600 mb-2">
                     <h3 class="text-sm mb-2">Recycled Packaging</h3>
                     <p class="text-gray-700 text-xs">We use 100% recycled packaging to ensure our footprint is manageable.</p>
                 </div>
             </div>
         </section>
 
-        <section class="my-32">
+        <section class="container mx-auto px-4 sm:px-6 md:px-8 xl:max-w-[1200px] py-16">
 
           <h2 class="font-regular font-clashdisplay text-xl mb-6">New ceramics</h2>
           <div class="grid grid-cols-4 gap-4"> 
@@ -127,14 +129,13 @@
         </div>
     </section>
 
-    <section class="transform -translate-y-10">
+    <section class="container mx-auto px-4 sm:px-6 md:px-8 xl:max-w-[1200px]">
         <h2 class="font-regular font-clashdisplay text-xl mb-4">Our popular products</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-    
-    <!-- Первая карточка (занимает 2 первых колонки) -->
+
     <div class="col-span-1 sm:col-span-2 md:col-span-2">
       <div class="relative h-[300px]">
-        <img src="./images/Large.jpg" alt="Sofa" class="absolute top-0 left-0 w-full h-full object-cover">
+        <img src="images/Large.jpg" alt="Sofa" class="absolute top-0 left-0 w-full h-full object-cover">
       </div>
       <div class="pt-4 pb-8">
         <h3>The Poplar suede sofa</h3>
@@ -142,10 +143,9 @@
       </div>
     </div>
 
-    <!-- Вторая карточка (занимает 3-ю колонку) -->
     <div class="col-span-1 sm:col-start-1 sm:col-end-2 md:col-start-3 md:col-end-4">
       <div class="relative h-[300px]">
-        <img src="./images/Product.jpg" alt="Chair" class="absolute top-0 left-0 w-full h-full object-cover">
+        <img src="images/Product.jpg" alt="Chair" class="absolute top-0 left-0 w-full h-full object-cover">
       </div>
       <div class="pt-4 pb-8">
         <h3>The Dandy chair</h3>
@@ -153,10 +153,9 @@
       </div>
     </div>
 
-    <!-- Третья карточка (занимает 4-ю колонку) -->
     <div class="col-span-1 sm:col-start-2 sm:col-end-3 md:col-start-4 md:col-end-5">
       <div class="relative h-[300px]">
-        <img src="./images/Product5.jpg" alt="Chair" class="absolute top-0 left-0 w-full h-full object-cover">
+        <img src="images/Product5.jpg" alt="Chair" class="absolute top-0 left-0 w-full h-full object-cover">
       </div>
       <div class="pt-4 pb-8">
         <h3>The Dandy chair</h3>
@@ -169,11 +168,113 @@
         </div>
     </section>
 
+    <section class="bg-gray-300/20 my-10 py-10">
+      <div class="container mx-auto px-4 sm:px-6 md:px-8 xl:max-w-[1200px] bg-gray-50 py-16">
+        <div class="text-center">
+          <h3 class="text-2xl md:text-3xl mb-4">Join the club and get the benefits</h3>
+          <p class="text-base md:text-sm mb-18">Sign up for our newsletter and receive exclusive offers on new <br> ranges, sales, pop up stores and more</p>
+        </div>
+
+         <form class="flex items-center justify-center">
+      <input 
+        type="email" 
+        placeholder="your@email.com" 
+        class="px-6 py-6 h-10 w-full max-w-xs text-gray-300 bg-gray-300/20 focus:outline-none"/>
+      <button 
+        type="submit" 
+        class="px-6 py-6 h-10 bg-rose-800 text-white text-sm hover:bg-rose-900 duration-300 flex items-center">
+        Sign up
+      </button>
+    </form>
+      </div>
 </section>
 
-    
+ <section class="relative w-full flex flex-col md:flex-row flex items-start ">
+      
+      <div class="container mx-auto px-4 sm:px-6 md:px-8 xl:max-w-[1200px]">
 
+  <div class="xl:pl-75">
+    <h2 class="text-xl">From a studio in London to a global brand with <br> over 400 outlets</h2>
+    <p class="text-sm mt-6">When we started Avion, the idea was simple. Make high-quality furniture <br> affordable and available for the mass market.</p>
+    <p class="text-sm mt-4">Handmade, and lovingly crafted furniture and homeware is what we live, <br> breathe and design so our Chelsea boutique became the hotbed for the <br> London interior design community.</p>
+    <div class="mt-42">
+      <a href="#" class="px-6 py-3 text-xs font-regular font-satoshi text-black bg-gray-300/20 hover:bg-rose hover:text-rose-900">Get in touch</a>
+    </div>
+  </div>
+</div>
+      
+      <div class="relative  md:w-2/2">
+        <img src="images/last_display.jpg" alt="last_display" class="absolute top-[-40px] right-0 w-[100%] h-[calc(67.3vh-200px)] object-cover">
+      </div>
+    </section>
 </main>
+
+<footer class="py-10 px-4 md:px-20 bg-emerald-700 text-white">
+    <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 mb-8">
+      
+      <div>
+        <h3 class="mb-4 text-sm">Menu</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">New arrivals</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Best sellers</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Recently viewed</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Popular this week</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">All products</a></li>
+        </ul>
+      </div>
+      
+      <!-- Categories Column -->
+      <div>
+        <h3 class="mb-4 text-sm">Categories</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Crockery</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Furniture</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Homeware</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Plant pots</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Chairs</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Crockery</a></li>
+        </ul>
+      </div>
+      
+      <!-- Our Company Column -->
+      <div>
+        <h3 class="mb-4 text-sm">Our company</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">About us</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Vacancies</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Contact us</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Privacy</a></li>
+          <li><a href="#" class="hover:text-rose-900 transition-colors duration-300 text-xs font-regular">Returns policy</a></li>
+        </ul>
+      </div>
+      
+      <!-- Join our mailing list Column -->
+      <div class="flex flex-col justify-between h-full">
+        <div class="space-y-4">
+          <h3 class="font-regular text-sm">Join our mailing list</h3>
+          <div class="flex  w-full">
+            <input type="email" placeholder="your@email.com" class="px-6 py-6 h-10 w-full max-w-xs text-gray-300 bg-gray-300/20 focus:outline-none">
+            <button type="submit" class="px-6 py-6 h-10 whitespace-nowrap text-white text-sm bg-rose-800 hover:bg-rose-900 duration-300 flex items-center">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bottom section with social icons -->
+    <div class="border-t border-gray-700 pt-4 mt-8 text-sm">
+      <div class="flex items-center justify-between">
+        <span class="text-sm">Copyright 2026 Avion LTD</span>
+        <div class="flex items-center space-x-4">
+          <img src="images/Tinder.svg" alt="" class="w-4 h-6">
+          <img src="images/facebook.svg" alt="" class="w-6 h-6">
+          <img src="images/Instagram.svg" alt="" class="w-6 h-6">
+          <img src="images/Skype.svg" alt="" class="w-4 h-6">
+          <img src="images/Twiter.svg" alt="" class="w-6 h-6">
+          <img src="images/Pinterest.svg" alt="" class="w-4 h-6">
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
